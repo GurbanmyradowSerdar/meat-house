@@ -566,11 +566,6 @@ video {
   top: 15rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .flex {
   display: flex;
 }
@@ -585,10 +580,6 @@ video {
 
 .max-w-\[250px\] {
   max-width: 250px;
-}
-
-.max-w-\[1000px\] {
-  max-width: 1000px;
 }
 
 .flex-col {
