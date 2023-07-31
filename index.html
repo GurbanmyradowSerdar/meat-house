@@ -3,10 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Meat-house</title>
     <link href="/src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <style>
+    #first {
+      background-image: url("/public/1/down-line.svg"),
+        url("/public/1/down-bg.svg"), url("/public/1/up-line.svg"),
+        url("/public/1/up-bg.svg"), url("/public/1/meal.png"),
+        url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
+        url("/public/1/item-3.svg");
+      background-position: bottom center, bottom center, top center, top center,
+        top left, 10% 44%, 10% 85%, 90% 30%;
+      background-repeat: no-repeat;
+      background-size: contain, contain, contain, contain, 80%, 15%, 20%, 18%;
+      min-height: 100vh;
+    }
+    body {
+      font-family: "Montserrat", sans-serif;
+    }
+    .alfa {
+      font-family: "Alfa Slab One", cursive;
+    }
+  </style>
+  <body class="bg-[#ebd1b4]">
+    <section id="first" class="relative">
+      <div
+        class="bg-[#D09967] rounded-full flex flex-col absolute top-60 left-28 items-center p-5"
+      >
+        <p class="text-xl font-bold text-[#3B2B28]">PRICE</p>
+        <p class="text-4xl text-[#3B2B28] alfa">13$</p>
+      </div>
+      <div
+        class="absolute flex flex-col items-end bottom-36 right-0 text-[#453432] pr-4 space-y-3"
+      >
+        <img
+          src="/public/logo.png"
+          alt="logo"
+          class="w-36 h-16 object-contain"
+        />
+        <div class="alfa uppercase items-end flex flex-col">
+          <h1 class="text-6xl">BBQ DAY</h1>
+          <h2 class="text-xl">Sunday, 29 june 2020</h2>
+        </div>
+        <div
+          class="flex flex-col text-right max-w-[250px] space-y-2 font-medium"
+        >
+          <p class="leading-tight">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            maxime odio porro? Qui aut corrupti reprehenderit saepe vero,
+            voluptate, nesciunt nostrum lorem ipsum
+          </p>
+          <p class="font-semibold">Site: will be soon</p>
+        </div>
+      </div>
+    </section>
     <script src="/src/main.js"></script>
   </body>
 </html>
+
+<!-- font-family: 'Alfa Slab One', cursive;
+font-family: 'Montserrat', sans-serif; -->
