@@ -1,0 +1,42 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.alfa {
+  font-family: "Alfa Slab One", cursive;
+}
+
+#first {
+  background-image: url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
+    url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
+    url("/public/1/meal.png"), url("/public/1/item-1.svg"),
+    url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+  background-position: bottom center, bottom center, top center, top center,
+    top left, 10% 44%, 10% 85%, 90% 30%;
+  background-repeat: no-repeat;
+  background-size: contain, contain, contain, contain, 80%, 15%, 20%, 18%;
+  min-height: 100vh;
+}
+
+#second {
+  background-image: url("/public/2/down-line.svg"), url("/public/2/down-bg.svg"),
+    url("/public/2/meal.png"), url("/public/2/item-1.svg"),
+    url("/public/2/item-2.svg"), url("/public/2/item-3.svg"),
+    url("/public/2/item-4.svg");
+  background-position: bottom center, bottom center, top center, 90% 84%,
+    10% 40%, 90% 40%, 10% 86%;
+  background-repeat: no-repeat;
+  background-size: contain, contain, contain, 18%, 20%, 18%, 18%;
+  min-height: 100vh;
+}
+
+#third {
+  background-image: url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
+    url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
+    url("/public/3/meal.png"), url("/public/1/item-1.svg"),
+    url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+  background-position: bottom center, bottom center, top center, top center,
+    bottom right, 10% 66%, 90% 54%, 50% 9%;
+  background-repeat: no-repeat;
+  background-size: contain, contain, contain, contain, 80%, 14%, 18%, 17%;
+  min-height: 100vh;
+}
