@@ -51,3 +51,17 @@ body {
   background-size: contain, contain, contain, 18%, 20%, 18%;
   min-height: 100vh;
 }
+
+#fifth {
+  background-image: url("/public/5/meal-1.png"), url("/public/5/meal-2.png"),
+    url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
+    url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
+    url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
+    url("/public/1/item-3.svg");
+  background-position: top right, left bottom, bottom center, bottom center,
+    top center, top center, 82% 85%, 85% 60%, 10% 10%;
+  background-repeat: no-repeat;
+  background-size: 70%, 63%, contain, contain, contain, contain, 15%, 20%, 16%,
+    17%;
+  min-height: 100vh;
+}
