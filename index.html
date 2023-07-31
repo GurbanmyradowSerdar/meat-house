@@ -16,13 +16,15 @@
   <body class="bg-[#ebd1b4]">
     <section id="first" class="relative">
       <div
-        class="bg-[#D09967] rounded-full flex flex-col absolute top-60 left-28 items-center p-5"
+        class="bg-[#D09967] rounded-full flex flex-col items-center p-5"
+        id="first__circle"
       >
         <p class="text-xl font-bold text-[#3B2B28]">PRICE</p>
         <p class="text-4xl text-[#3B2B28] alfa">13$</p>
       </div>
       <div
-        class="absolute flex flex-col items-end bottom-36 right-0 text-[#453432] pr-4 space-y-3"
+        class="flex flex-col items-end text-[#453432] pr-4 space-y-3"
+        id="first__info"
       >
         <img
           src="/public/logo.png"
@@ -30,11 +32,12 @@
           class="w-36 h-16 object-contain"
         />
         <div class="alfa uppercase items-end flex flex-col">
-          <h1 class="text-6xl">BBQ DAY</h1>
+          <h1 class="text-5xl">BBQ DAY</h1>
           <h2 class="text-xl">Sunday, 29 june 2020</h2>
         </div>
         <div
-          class="flex flex-col text-right max-w-[250px] space-y-2 font-medium"
+          class="flex flex-col text-right space-y-2 font-medium"
+          id="first__text"
         >
           <p class="leading-tight">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
@@ -47,7 +50,8 @@
     </section>
     <section id="second" class="relative">
       <div
-        class="absolute flex flex-col items-center bottom-44 left-12 text-[#453432] space-y-3 text-center"
+        class="flex flex-col items-center text-[#453432] space-y-3 text-center"
+        id="second__info"
       >
         <img
           src="/public/logo.png"
@@ -55,14 +59,15 @@
           class="w-36 h-16 object-contain"
           loading="lazy"
         />
-        <div class="alfa uppercase items-end flex flex-col">
-          <h1 class="text-6xl">BBQ DAY</h1>
+        <div class="alfa uppercase items-center flex flex-col">
+          <h1 class="text-5xl">BBQ DAY</h1>
           <h2 class="text-xl">Sunday, 29 june 2020</h2>
         </div>
         <div
-          class="flex flex-col items-center max-w-[250px] space-y-2 font-medium"
+          class="flex flex-col items-center space-y-2 font-medium"
+          id="second__text"
         >
-          <p class="leading-tight">
+          <p class="leading-tight" id="second__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
             maxime odio porro? Qui aut corrupti reprehenderit saepe vero,
             voluptate, nesciunt nostrum lorem ipsum
