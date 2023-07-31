@@ -40,3 +40,14 @@ body {
   background-size: contain, contain, contain, contain, 80%, 14%, 18%, 17%;
   min-height: 100vh;
 }
+
+#fourth {
+  background-image: url("/public/4/up-line.svg"), url("/public/4/up-bg.svg"),
+    url("/public/4/meal.png"), url("/public/2/item-1.svg"),
+    url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+  background-position: top center, top center, bottom center, 89% 58%, 10% 20%,
+    90% 15%;
+  background-repeat: no-repeat;
+  background-size: contain, contain, contain, 18%, 20%, 18%;
+  min-height: 100vh;
+}
