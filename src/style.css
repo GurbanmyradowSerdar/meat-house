@@ -84,11 +84,25 @@ body {
     background-image: url("/public/4/up-line.svg"), url("/public/4/up-bg.svg"),
       url("/public/4/meal.png"), url("/public/2/item-1.svg"),
       url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
-    background-position: top center, top center, bottom center, 89% 58%, 10% 20%,
-      90% 15%;
+    background-position: top center, top center, bottom center, 89% 53%, 10% 13%,
+      90% 13%;
     background-repeat: no-repeat;
-    background-size: contain, contain, contain, 18%, 20%, 18%;
+    background-size: contain, contain, 480px, 60px, 70px, 60px;
     min-height: 100vh;
+  }
+  #fourth__circle {
+    position: absolute;
+    bottom: 32%;
+    left: 20%;
+  }
+  #fourth__info {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 14%;
+  }
+  #fourth__text {
+    max-width: 350px;
   }
 
   #fifth {
@@ -186,11 +200,25 @@ body {
     background-image: url("/public/4/up-line.svg"), url("/public/4/up-bg.svg"),
       url("/public/4/meal.png"), url("/public/2/item-1.svg"),
       url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
-    background-position: top center, top center, bottom center, 89% 58%, 10% 20%,
+    background-position: top center, top center, 50% 100%, 90% 48%, 10% 20%,
       90% 15%;
     background-repeat: no-repeat;
-    background-size: contain, contain, contain, 18%, 20%, 18%;
+    background-size: contain, contain, 570px, 70px, 80px, 70px;
     min-height: 100vh;
+  }
+  #fourth__circle {
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+  }
+  #fourth__info {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 14%;
+  }
+  #fourth__text {
+    max-width: 350px;
   }
 
   #fifth {
@@ -205,6 +233,33 @@ body {
     background-size: 70%, 63%, contain, contain, contain, contain, 15%, 20%, 16%,
       17%;
     min-height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+  #fourth {
+    background-image: url("/public/4/up-line.svg"), url("/public/4/up-bg.svg"),
+      url("/public/4/meal.png"), url("/public/2/item-1.svg"),
+      url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+    background-position: top center, top center, 50% 160%, 90% 52%, 5% 30%,
+      90% 28%;
+    background-repeat: no-repeat;
+    background-size: contain, contain, 770px, 80px, 90px, 80px;
+    min-height: 100vh;
+  }
+  #fourth__circle {
+    position: absolute;
+    bottom: 36%;
+    left: 18%;
+  }
+  #fourth__info {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 14%;
+  }
+  #fourth__text {
+    max-width: 350px;
   }
 }
 
