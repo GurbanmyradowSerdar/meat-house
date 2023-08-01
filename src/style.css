@@ -106,17 +106,30 @@ body {
   }
 
   #fifth {
-    background-image: url("/public/5/meal-1.png"), url("/public/5/meal-2.png"),
+    background-image: url("/public/5/meal-2.png"),
       url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
       url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
-      url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
-      url("/public/1/item-3.svg");
-    background-position: top right, left bottom, bottom center, bottom center,
-      top center, top center, 82% 85%, 85% 60%, 10% 10%;
+      url("/public/5/meal-1.png"), url("/public/1/item-1.svg"),
+      url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+    background-position: left bottom, bottom center, bottom center, top center,
+      top center, top right, 90% 85%, 90% 43%, 2% 15%;
     background-repeat: no-repeat;
-    background-size: 70%, 63%, contain, contain, contain, contain, 15%, 20%, 16%,
-      17%;
+    background-size: 250px, contain, contain, contain, contain, 260px, 50px,
+      60px, 50px;
     min-height: 100vh;
+  }
+  #fifth__circle {
+    position: absolute;
+    top: 20%;
+    right: 23%;
+  }
+  #fifth__info {
+    position: absolute;
+    top: 28%;
+    left: 3%;
+  }
+  #fifth__text {
+    max-width: 220px;
   }
 }
 
@@ -222,17 +235,30 @@ body {
   }
 
   #fifth {
-    background-image: url("/public/5/meal-1.png"), url("/public/5/meal-2.png"),
+    background-image: url("/public/5/meal-2.png"),
       url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
       url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
-      url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
-      url("/public/1/item-3.svg");
-    background-position: top right, left bottom, bottom center, bottom center,
-      top center, top center, 82% 85%, 85% 60%, 10% 10%;
+      url("/public/5/meal-1.png"), url("/public/1/item-1.svg"),
+      url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+    background-position: left bottom, bottom center, bottom center, top center,
+      top center, top right, 84% 70%, 70% 48%, 5% 15%;
     background-repeat: no-repeat;
-    background-size: 70%, 63%, contain, contain, contain, contain, 15%, 20%, 16%,
-      17%;
+    background-size: 330px, contain, contain, contain, contain, 330px, 70px,
+      80px, 70px;
     min-height: 100vh;
+  }
+  #fifth__circle {
+    position: absolute;
+    top: 25%;
+    right: 30%;
+  }
+  #fifth__info {
+    position: absolute;
+    top: 28%;
+    left: 3%;
+  }
+  #fifth__text {
+    max-width: 220px;
   }
 }
 
@@ -307,5 +333,137 @@ body {
   }
   #second__text {
     max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  body {
+    max-width: 700px;
+    margin: 0px auto;
+  }
+  #first {
+    background-image: url("/public/1/down-line.svg"),
+      url("/public/1/down-bg.svg"), url("/public/1/up-line.svg"),
+      url("/public/1/up-bg.svg"), url("/public/1/meal.png"),
+      url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
+      url("/public/1/item-3.svg");
+    background-position: bottom center, bottom center, top center, top center,
+      top left, 10% 50%, 10% 80%, 90% 22%;
+    background-repeat: no-repeat;
+    background-size: contain, contain, contain, contain, 310px, 80px, 100px,
+      90px;
+    min-height: 115vh;
+  }
+  #first__circle {
+    position: absolute;
+    top: 28%;
+    left: 25%;
+  }
+  #first__info {
+    position: absolute;
+    right: 0;
+    bottom: 24%;
+  }
+  #first__text {
+    max-width: 350px;
+  }
+
+  #second {
+    background-image: url("/public/2/down-line.svg"),
+      url("/public/2/down-bg.svg"), url("/public/2/meal.png"),
+      url("/public/2/item-1.svg"), url("/public/2/item-2.svg"),
+      url("/public/2/item-3.svg"), url("/public/2/item-4.svg");
+    background-position: bottom center, bottom center, 0% -30%, 90% 80%, 10% 40%,
+      90% 40%, 10% 80%;
+    background-repeat: no-repeat;
+    background-size: contain, contain, contain, 72px, 90px, 70px, 70px;
+    min-height: 115vh;
+  }
+  #second__info {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 25%;
+  }
+  #second__text {
+    max-width: 100%;
+  }
+
+  #third {
+    background-image: url("/public/1/down-line.svg"),
+      url("/public/1/down-bg.svg"), url("/public/1/up-line.svg"),
+      url("/public/1/up-bg.svg"), url("/public/3/meal.png"),
+      url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
+      url("/public/1/item-3.svg");
+    background-position: bottom center, bottom center, top center, top center,
+      bottom right, 10% 66%, 85% 45%, 50% 9%;
+    background-repeat: no-repeat;
+    background-size: contain, contain, contain, contain, 370px, 70px, 90px, 70px;
+    min-height: 115vh;
+  }
+  #third__circle {
+    position: absolute;
+    bottom: 30%;
+    right: 35%;
+  }
+  #third__info {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+  }
+  #third__text {
+    max-width: 200px;
+  }
+
+  #fourth {
+    background-image: url("/public/4/up-line.svg"), url("/public/4/up-bg.svg"),
+      url("/public/4/meal.png"), url("/public/2/item-1.svg"),
+      url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+    background-position: top center, top center, 50% 100%, 90% 48%, 10% 20%,
+      90% 15%;
+    background-repeat: no-repeat;
+    background-size: contain, contain, 570px, 70px, 80px, 70px;
+    min-height: 115vh;
+  }
+  #fourth__circle {
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+  }
+  #fourth__info {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 14%;
+  }
+  #fourth__text {
+    max-width: 350px;
+  }
+
+  #fifth {
+    background-image: url("/public/5/meal-2.png"),
+      url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
+      url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
+      url("/public/5/meal-1.png"), url("/public/1/item-1.svg"),
+      url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
+    background-position: left bottom, bottom center, bottom center, top center,
+      top center, top right, 84% 70%, 70% 48%, 5% 15%;
+    background-repeat: no-repeat;
+    background-size: 330px, contain, contain, contain, contain, 330px, 70px,
+      80px, 70px;
+    min-height: 115vh;
+  }
+  #fifth__circle {
+    position: absolute;
+    top: 25%;
+    right: 30%;
+  }
+  #fifth__info {
+    position: absolute;
+    top: 28%;
+    left: 3%;
+  }
+  #fifth__text {
+    max-width: 220px;
   }
 }
