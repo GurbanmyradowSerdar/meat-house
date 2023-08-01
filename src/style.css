@@ -61,10 +61,23 @@ body {
       url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
       url("/public/1/item-3.svg");
     background-position: bottom center, bottom center, top center, top center,
-      bottom right, 10% 66%, 90% 54%, 50% 9%;
+      bottom right, 5% 66%, 90% 54%, 50% 9%;
     background-repeat: no-repeat;
-    background-size: contain, contain, contain, contain, 80%, 14%, 18%, 17%;
+    background-size: contain, contain, contain, contain, 300px, 50px, 80px, 60px;
     min-height: 100vh;
+  }
+  #third__circle {
+    position: absolute;
+    bottom: 25%;
+    right: 36%;
+  }
+  #third__info {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+  }
+  #third__text {
+    max-width: 290px;
   }
 
   #fourth {
@@ -150,10 +163,23 @@ body {
       url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
       url("/public/1/item-3.svg");
     background-position: bottom center, bottom center, top center, top center,
-      bottom right, 10% 66%, 90% 54%, 50% 9%;
+      bottom right, 10% 66%, 85% 45%, 50% 9%;
     background-repeat: no-repeat;
-    background-size: contain, contain, contain, contain, 80%, 14%, 18%, 17%;
+    background-size: contain, contain, contain, contain, 370px, 70px, 90px, 70px;
     min-height: 100vh;
+  }
+  #third__circle {
+    position: absolute;
+    bottom: 30%;
+    right: 35%;
+  }
+  #third__info {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+  }
+  #third__text {
+    max-width: 200px;
   }
 
   #fourth {
@@ -228,66 +254,3 @@ body {
     max-width: 100%;
   }
 }
-
-/*
-!   ----------------------------------------------------------------
-#first {
-  background-image: url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
-    url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
-    url("/public/1/meal.png"), url("/public/1/item-1.svg"),
-    url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
-  background-position: bottom center, bottom center, top center, top center,
-    top left, 10% 44%, 10% 85%, 90% 30%;
-  background-repeat: no-repeat;
-  background-size: contain, contain, contain, contain, 80%, 15%, 20%, 18%;
-  min-height: 100vh;
-}
-
-#second {
-  background-image: url("/public/2/down-line.svg"), url("/public/2/down-bg.svg"),
-    url("/public/2/meal.png"), url("/public/2/item-1.svg"),
-    url("/public/2/item-2.svg"), url("/public/2/item-3.svg"),
-    url("/public/2/item-4.svg");
-  background-position: bottom center, bottom center, top center, 90% 84%,
-    10% 40%, 90% 40%, 10% 86%;
-  background-repeat: no-repeat;
-  background-size: contain, contain, contain, 18%, 20%, 18%, 18%;
-  min-height: 100vh;
-}
-
-#third {
-  background-image: url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
-    url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
-    url("/public/3/meal.png"), url("/public/1/item-1.svg"),
-    url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
-  background-position: bottom center, bottom center, top center, top center,
-    bottom right, 10% 66%, 90% 54%, 50% 9%;
-  background-repeat: no-repeat;
-  background-size: contain, contain, contain, contain, 80%, 14%, 18%, 17%;
-  min-height: 100vh;
-}
-
-#fourth {
-  background-image: url("/public/4/up-line.svg"), url("/public/4/up-bg.svg"),
-    url("/public/4/meal.png"), url("/public/2/item-1.svg"),
-    url("/public/1/item-2.svg"), url("/public/1/item-3.svg");
-  background-position: top center, top center, bottom center, 89% 58%, 10% 20%,
-    90% 15%;
-  background-repeat: no-repeat;
-  background-size: contain, contain, contain, 18%, 20%, 18%;
-  min-height: 100vh;
-}
-
-#fifth {
-  background-image: url("/public/5/meal-1.png"), url("/public/5/meal-2.png"),
-    url("/public/1/down-line.svg"), url("/public/1/down-bg.svg"),
-    url("/public/1/up-line.svg"), url("/public/1/up-bg.svg"),
-    url("/public/1/item-1.svg"), url("/public/1/item-2.svg"),
-    url("/public/1/item-3.svg");
-  background-position: top right, left bottom, bottom center, bottom center,
-    top center, top center, 82% 85%, 85% 60%, 10% 10%;
-  background-repeat: no-repeat;
-  background-size: 70%, 63%, contain, contain, contain, contain, 15%, 20%, 16%,
-    17%;
-  min-height: 100vh;
-} */
